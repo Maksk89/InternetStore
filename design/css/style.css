@@ -1,0 +1,289 @@
+.content
+{
+    width:100%;
+    max-width:1280px;
+    margin-left:auto;
+    margin-right:auto;
+    min-height:1280px;
+    background-color:#FF9400;
+}
+.menu
+{
+    width:100%;
+    max-width:1280px;
+    margin: 0 auto;
+    height:100px;
+    background-color:#FFAE40;
+}
+
+.menu-container
+{
+    width:100%;
+    float:left;
+    height:100px;
+    background-color:#FF9400;
+    border-bottom:1px solid orchid;
+}
+
+.menu-item
+{
+    height:100px;
+    width:20%;
+    float:left;
+    position:relative;
+    font-size:1.6em;
+    transform: translateZ(0px);
+    transition-duration: 0.3s;
+    transition-property: transform;
+    text-align:center;
+    border-radius:5px;
+    background-color:#ffde75;
+    z-index:10;
+}
+
+
+
+.menu-item:hover
+{
+    box-shadow: 3px 3px 3px #fff316, 0 0 1em #fff316;
+    transform:scale(1.1);
+    background-color:#fff316;
+    -webkit-transform: scale(1.1);/* Saf3.1+, Chrome */
+    -moz-transform: scale(1.1); /* FF3.5+ */
+    -ms-transform: scale(1.1); /* IE9 */
+    -o-transform: scale(1.1); /* Opera 10.5+ */
+    z-index:11;
+}
+
+.footer
+{
+    width:100%;
+    max-width:1280px;
+    margin-left:auto;
+    margin-right:auto;
+    height:100px;
+    background-color: #a64b00;
+}
+
+body{
+    font-family: "Times New Roman", sans-serif;
+    font-size:1em;
+    margin:0;
+    padding:0;
+}
+
+a
+{
+    text-decoration:none;
+    font-size:1em;
+    color:#000;
+}
+
+.logo
+{
+    width:70px;
+    height:50px;
+    background-image:url("/z191024kmg/www/design/img/logo.png ");
+    background-size:cover;
+    margin:10px;
+    float:left;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+img
+{
+    max-width:100%;
+    height:auto;
+}
+
+
+.lg-1
+{
+    width:8.3333333333%;
+    float:left;
+    position:relative;
+    height:auto;
+}
+.lg-2
+{
+    width:16.6666666666666%;
+    float:left;
+    position:relative;
+    height:auto;;
+}
+.lg-3
+{
+    width:25%;
+    float:left;
+    position:relative;
+    height:auto;
+}
+
+.lg-4
+{
+    width: 33.33333333333%;
+    float:left;
+    position:relative;
+    height:auto;
+    background-color:#BF7130;
+}
+
+.lg-5
+{
+    width:41.66666666666666%;
+    float:left;
+    position:relative;
+    height:auto;
+}
+
+.lg-6
+{
+    width:50%;
+    float:left;
+    position:relative;
+    height:auto;
+}
+
+.lg-7
+{
+    width:58.33333333333333%;
+    float:left;
+    position:relative;
+    height:auto;
+}
+
+.lg-8
+{
+    width:66.66666666666666%;
+    float:left;
+    position:relative;
+    height:auto;
+    background-color:#FFB273;
+}
+
+.lg-9
+{
+    width:75%;
+    float:left;
+    position:relative;
+    height:auto;
+}
+
+.lg-10
+{
+    width:83.3333333333333333333333%;
+    float:left;
+    position:relative;
+    height:auto;
+}
+
+.lg-11
+{
+    width:91.66666666666666%;
+    float:left;
+    position:relative;
+    height:auto;
+}
+
+.lg-12
+{
+    width:100%;
+    float:left;
+    position:relative;
+    height:auto;
+}
+
+.lg-test
+{
+    width:20%;
+    float:left;
+    position:relative;
+    height:auto;
+}
+
+
+
+
+
+
+@media (max-width:506px)
+{
+    .menu-container
+    {
+        width:100%;
+        float:left;
+        height:auto;
+        min-height:100px;
+    }
+    .menu-item
+    {
+        height:100px;
+        width:100%;
+        float:left;
+    }
+}
+
+.good
+{
+    height:200px;
+    border:1px solid #dddddd;
+    width:23%;
+    margin-left:1%;
+    margin-top:10px;
+    float:left;
+    position:relative;
+}
+.good-pic
+{
+    width:100%;
+    height:100%;
+    background-size:cover;
+    overflow:hidden;
+}
+.good-info
+{
+    width:100%;
+    height:50px;
+    overflow:hidden;
+    opacity:0.2;
+    filter:alpha(opacity=20);
+    -moz-opacity:0.2;
+    margin-top:150px;
+    transition-duration: 0.3s;
+    text-align:center;
+    background-color:#ffffff;
+}
+
+.good-info:hover
+{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    opacity:0.9;
+    filter:alpha(opacity=90);
+    -moz-opacity:0.9;
+    margin-top:0px;
+}
+
+.good-pic-info
+{
+    width:100%;
+    height: 200px;
+    background-size:contain;
+    border:1px solid #aaaaaa;
+    overflow:hidden;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin-top:10px;
+}
+.good-info-info
+{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+    margin:10px;
+    text-align:left;
+    background-color:#ffffff;
+}
